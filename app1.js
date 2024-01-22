@@ -1,6 +1,4 @@
 //Declaración de variables.
-let numeroInicial;
-let numeroFinal;
 let rangoNumeroSecreto = prompt('Hola, dime hasta que número quieres jugar. Del 1 al _ ?: ')
 let numeroSecreto = Math.floor(Math.random()*rangoNumeroSecreto)+1; //Número pseudoaleatorio entre 1 - 10.
 let numeroUsuario; // indefinida 
